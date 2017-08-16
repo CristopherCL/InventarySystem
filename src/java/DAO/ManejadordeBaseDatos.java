@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  * @author CRISTOPHER-PC
  */
 public class ManejadordeBaseDatos {
-    
+    //declaracion de variables
     protected String usuarioBD ="id2490111_compustok";
     protected String passwordBD="123456";
     protected String url = "jdbc:mysql://inventarysystems.000webhostapp.com/id2490111_inventarysystems";
