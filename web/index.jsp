@@ -167,4 +167,8 @@
         </form>
         
     </body>
+    <footer>
+        <p>Universidad Laica Eloy Alfaro de Manabi</p>
+        <p>Autores: Cedeño Salazar, Cristopher Legarda</p>
+    </footer>
 </html>
