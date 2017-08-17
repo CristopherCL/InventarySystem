@@ -18,31 +18,37 @@ import java.util.logging.Logger;
  * @author CRISTOPHER-PC
  */
 public class ManejadordeBaseDatos {
-    //declaracion de variables 
-    protected String usuarioBD ="epiz_20545564";
-    protected String passwordBD="3JHvL0HF";
-    protected String url = "jdbc:mysql://sql110.epizy.com/epiz_20545564_InventarySistems";
+    
+    protected String usuarioBD ="id2490111_compustok";
+    protected String passwordBD="123456";
+    protected String url = "jdbc:mysql://inventarysystems.000webhostapp.com/id2490111_inventarysystems";
     protected Connection conectar = null;
     
      public Connection conexion(){
-         
+//         conectar = null;
         try {
             //Llamamos al driver
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException ex) {
             Logger.getLogger("Error de Driver "+ex.getMessage());
+            System.out.println("Érror 2555" + ex);
         }
         
         try {
             //Realizo la conexion a la base de datos 
             conectar = DriverManager.getConnection(url, usuarioBD, passwordBD);
-            System.out.println("Conexion Exitosa");
+            System.out.println("Éxito al conectar");
+                    
         } catch (SQLException ex) {
             Logger.getLogger("Error de Conexion \n Codigo:"+ex.getErrorCode()+" Explicacion:"+ex.getMessage());
-            System.out.println("Error de Conexion "+ex.getErrorCode() + " Explicacion: " + ex.getMessage());
+            System.out.println("Érror 200" +ex.getErrorCode()+" Explicacion:"+ex.getMessage());
         }
         
         return conectar; 
+     }
+     
+     public Connection getConnection(){
+         return conectar;       
      }
      //Acutualizo la conexion cada que haga un insert u modificaciones
 //     public int actualizar(PreparedStatement sentencia) throws Exception {
