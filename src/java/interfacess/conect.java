@@ -71,10 +71,10 @@ public class conect extends javax.swing.JFrame {
         try {
             // TODO add your handling code here:
             Connection cn = con.conexion();
-            PreparedStatement ingreso = cn.prepareStatement("INSERT INTO Login (usuario,contraseña) VALUES (?,?)");
+            PreparedStatement ingreso = cn.prepareStatement("INSERT INTO Login (id_usuario, usuario,contraseña) VALUES (?,?,?)");
             ingreso.setString(1, "listo2");
             ingreso.setString(2, "listo");
-//            ingreso.setString(3, "listo");
+            ingreso.setString(3, "listo");
 //            ingreso.setString(4, "listo");
 //            ingreso.setString(5, "listo");
             ingreso.executeUpdate();

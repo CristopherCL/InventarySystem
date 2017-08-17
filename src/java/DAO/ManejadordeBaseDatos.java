@@ -19,9 +19,9 @@ import java.util.logging.Logger;
  */
 public class ManejadordeBaseDatos {
     //declaracion de variables 
-    protected String usuarioBD ="id2490111_compustok";
-    protected String passwordBD="123456";
-    protected String url = "jdbc:mysql://inventarysystems.000webhostapp.com/id2490111_inventarysystems";
+    protected String usuarioBD ="epiz_20545564";
+    protected String passwordBD="3JHvL0HF";
+    protected String url = "jdbc:mysql://sql110.epizy.com/epiz_20545564_InventarySistems";
     protected Connection conectar = null;
     
      public Connection conexion(){
@@ -39,6 +39,7 @@ public class ManejadordeBaseDatos {
             System.out.println("Conexion Exitosa");
         } catch (SQLException ex) {
             Logger.getLogger("Error de Conexion \n Codigo:"+ex.getErrorCode()+" Explicacion:"+ex.getMessage());
+            System.out.println("Error de Conexion "+ex.getErrorCode() + " Explicacion: " + ex.getMessage());
         }
         
         return conectar; 

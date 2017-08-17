@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
         <link rel="stylesheet" href="Mis estilos\miestilo.css">
     </head>
-    <body>          
+    <body>  <center>       
             <div class="four columns">
                 <section class="Seccion"> 
                     <center>
@@ -101,6 +101,6 @@
                 <button type="submit" name="btneliminarproducto">Eliminar</button>
             </article>
         </section>  --%>
-
+</center> 
     </body>
 </html>

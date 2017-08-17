@@ -150,7 +150,7 @@
         </section>     
     </aside>
         --%>
-        
+        <%--
         <form action="controlcliente.do" method="post">
             
             <label id="cedula">Cedula:</label>
@@ -165,10 +165,12 @@
             <input type="text" name="txttelefono"><br><br>
             <button type="submit" name="btnregistro">Registrar</button>
         </form>
-        
+        --%>
     </body>
     <footer>
+        <center>
         <p>Universidad Laica Eloy Alfaro de Manabi</p>
-        <p>Autores: Cedeño Salazar, Cristopher Legarda</p>
+        <p>Autores</p><p> Cedeño Salazar, Cristopher Legarda</p><p>Facultad de ciencias informaticas</p>
+        </center>
     </footer>
 </html>
