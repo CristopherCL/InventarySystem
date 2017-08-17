@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
 </head>
 <body class="cover" style="background-image: url(Imagenes/img/login_imagen.jpg);">
-	<form action="home.html" method="" autocomplete="off" class="full-box logInForm">
+	<form action="menu.jsp" method="" autocomplete="off" class="full-box logInForm">
 		<p class="text-center text-muted"><i class="zmdi zmdi-account-circle zmdi-hc-5x"></i></p>
 		<p class="text-center text-muted text-uppercase">Inicia sesión con tu cuenta</p>
 		<div class="form-group label-floating">
