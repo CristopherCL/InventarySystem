@@ -1,6 +1,6 @@
 <%-- 
-    Document   : menu
-    Created on : 17/08/2017, 12:23:10
+    Document   : registro_producto
+    Created on : 17/08/2017, 17:24:17
     Author     : CedenoSalazarBryanCa
 --%>
 
@@ -8,10 +8,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Inicio</title>
+	<title>Registration</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
+        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
+        <link rel="stylesheet" href="Mis estilos\miestilo.css">
 </head>
 <body>
 	<!-- SideBar -->
@@ -20,7 +22,7 @@
 		<div class="full-box dashboard-sideBar-ct">
 			<!--SideBar Title -->
 			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
-				InventarySystems <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+				company <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
 			</div>
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
@@ -50,20 +52,20 @@
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administración <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administracion <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registro_producto.jsp"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro Producto</a>
+							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro de producto</a>
 						</li>
 						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Cliente</a>
+							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro de cliente</a>
 						</li>
 						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro Ventas</a>
+							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro de venta</a>
 						</li>
 						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i>Registro Inventario</a>
+							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Registro de inventario</a>
 						</li>
 					</ul>
 				</li>
@@ -76,8 +78,9 @@
 							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administrador</a>
 						</li>
 						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Cliente</a>
+							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Cliente</a>
 						</li>
+						
 					</ul>
 				</li>
 				<li>
@@ -86,20 +89,20 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta productos</a>
+							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta de producto</a>
 						</li>
 						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Consulta inventarios</a>
+							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i>Consulta de inventario</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Informacion de la empresa <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Información de la empresa <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> School Data</a>
+							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
 						</li>
 					</ul>
 				</li>
@@ -136,120 +139,58 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles">Compustok <small>tu tienda de computación</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro de productos</small></h1>
 			</div>
+			<p class="lead">Ingrese los productos que desea registrar</p>
 		</div>
-		<div class="full-box text-center" style="padding: 30px 10px;">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Admin
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-account"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">7</p>
-					<small>Register</small>
-				</div>
-			</article>
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Teacher
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-male-alt"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">10</p>
-					<small>Register</small>
-				</div>
-			</article>
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Student
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-face"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">70</p>
-					<small>Register</small>
-				</div>
-			</article>
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Representative
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-male-female"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">70</p>
-					<small>Register</small>
-				</div>
-			</article>
-		</div>
-		<div class="container-fluid">
-			<div class="page-header">
-			  <h1 class="text-titles">System <small>TimeLine</small></h1>
-			</div>
-			<section id="cd-timeline" class="cd-container">
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
-                    </div>
-                    <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">1 - Name (Admin)</h4>
-                        <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
-                        </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
-                    </div>
-                </div>  
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
-                    </div>
-                    <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">2 - Name (Teacher)</h4>
-                        <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
-                        </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
-                    </div>
-                </div>
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
-                    </div>
-                    <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">3 - Name (Student)</h4>
-                        <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
-                        </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
-                    </div>
-                </div>
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
-                    </div>
-                    <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">4 - Name (Personal Ad.)</h4>
-                        <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
-                        </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
-                    </div>
-                </div>   
-            </section>
-
-
-		</div>
+		<div class="four columns">
+                <section class="Seccion"> 
+                    <center>
+                        <form action="ControlProducto.do" method="post">
+                            <fieldset>
+                                <legend>REGISTRO PRODUCTOS</legend>
+                                    <ul>                                
+                                        <li class="field">
+                                            <label class="inline" for="text1">Código: </label>
+                                            <input class="wide text input" name="txtcodigo" type="text" placeholder="p0029" required/>  
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text2">Nombre: </label>
+                                            <input class="wide text input" name="txtnombreproducto" type="text" placeholder="Mouse" required/>                                        
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text3">Descripción: </label>
+                                            <input class="wide text input" name="txtdescripcionproducto" type="text" placeholder="Mouse inalámbrico" required/>                                       
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text4">Precio Compra: </label>
+                                            <input class="wide text input" name="txtpcompra" type="number" required/>                                        
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text5">Precio Venta: </label>
+                                            <input class="wide text input" name="txtpventa" type="number" required/>                                        
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text6">Stock: </label>
+                                            <input class="wide text input" name="txtstockp" type="number" required/>                                        
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text7">Stock Mínimo: </label>
+                                            <input class="wide text input" name="txtstockminimop" type="number" required/>                                        
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text8">Fecha de Entrada: </label>
+                                            <input class="wide text input" name="txtfechaentrada" type="date" />                                        
+                                        </li>
+                                    </ul>
+                                <center>
+                                    <button type="submit" name="btnregistrarproducto">Guardar</button>
+                                </center>
+                            </fieldset>  
+                        </form> 
+                    </center>
+                </section>             
+            </div>
 	</section>
 
 	<!-- Notifications area -->
