@@ -14,7 +14,7 @@ $(document).ready(function(){
 		swal({
 		  	title: '¿Desea salir del sistema?'
 		  	text: "Usted esta a punto de cerrar sesión y salir del sistema",
-		  	type: 'Advertencia',
+		  	type: 'warning',
 		  	showCancelButton: true,
 		  	confirmButtonColor: '#03A9F4',
 		  	cancelButtonColor: '#F44336',
