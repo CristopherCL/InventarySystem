@@ -22,7 +22,7 @@
 		<div class="full-box dashboard-sideBar-ct">
 			<!--SideBar Title -->
 			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
-				Compañia <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+				InventarySystems <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
 			</div>
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
@@ -146,45 +146,49 @@
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
-                        <form action="ControlProducto.do" method="post">
+                        <form action="https://inventarysystems.000webhostapp.com/registro_producto.php" method="get">
                             <fieldset>
                                 <legend>REGISTRO PRODUCTOS</legend>
                                     <ul>                                
                                         <li class="field">
                                             <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="txtcodigo" type="text" placeholder="p0029" required/>  
+                                            <input class="wide text input" name="cod_   pro" type="text" placeholder="p0029" required/>  
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text2">Nombre: </label>
-                                            <input class="wide text input" name="txtnombreproducto" type="text" placeholder="Mouse" required/>                                        
+                                            <label class="inline" for="text2">Categoría: </label>
+                                            <input class="wide text input" name="cat_pro" type="text" placeholder="Mouse" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Descripción: </label>
-                                            <input class="wide text input" name="txtdescripcionproducto" type="text" placeholder="Mouse inalámbrico" required/>                                       
+                                            <label class="inline" for="text3">Proveedor: </label>
+                                            <input class="wide text input" name="provee_pro" type="text" placeholder="Nombre proveedor" required/>                                       
+                                        </li>
+                                        <li class="field">
+                                            <label class="inline" for="text3">Descripción del producto: </label>
+                                            <input class="wide text input" name="descrip_pro" type="text" placeholder="Mause Óptico" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text4">Precio Compra: </label>
-                                            <input class="wide text input" name="txtpcompra" type="number" required/>                                        
+                                            <input class="wide text input" name="precio_pro" type="number" step="0.01" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text5">Precio Venta: </label>
-                                            <input class="wide text input" name="txtpventa" type="number" required/>                                        
+                                            <input class="wide text input" name="precio_v_pro" type="number" step="0.01" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text6">Stock: </label>
-                                            <input class="wide text input" name="txtstockp" type="number" required/>                                        
+                                            <input class="wide text input" name="stock_pro" type="number" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text7">Stock Mínimo: </label>
-                                            <input class="wide text input" name="txtstockminimop" type="number" required/>                                        
+                                            <input class="wide text input" name="stock_min_pro" type="number" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text8">Fecha de Entrada: </label>
-                                            <input class="wide text input" name="txtfechaentrada" type="date" />                                        
+                                            <input class="wide text input"  name="fech_pro" type="date" />                                        
                                         </li>
                                     </ul>
                                 <center>
-                                    <button type="submit" name="btnregistrarproducto">Guardar</button>
+                                    <button type="submit" name="btnregistrarproducto" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
                                 </center>
                             </fieldset>  
                         </form> 
