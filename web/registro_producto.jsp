@@ -152,7 +152,7 @@
                                     <ul>                                
                                         <li class="field">
                                             <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="cod_   pro" type="text" placeholder="p0029" required/>  
+                                            <input class="wide text input" name="cod_pro" type="text" placeholder="p0029" required/>  
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text2">Categoría: </label>
