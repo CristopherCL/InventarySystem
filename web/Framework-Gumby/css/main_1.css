@@ -310,7 +310,7 @@ body, html{
 }
 /*============ Estilos home*/
 .tile{
-	max-width: 300px;
+	max-width: 150px;
 	height: 180px;
 	background-color: #fff;
 	color: rgba(43, 174, 168, 1);
