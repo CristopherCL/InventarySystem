@@ -1,15 +1,15 @@
 /*========= Importando hojas de estilo =========*/
 /* Bootstrap 3.3.7 */
-@import url('Web Pages/Framework-Gumby/css/bootstrap.min.css');
+@import url('./bootstrap.min.css');
 /* Material desing for Bootstrap */
-@import url('Web Pages/Framework-Gumby/css/bootstrap-material-design.min.css');
-@import url('Web Pages/Framework-Gumby/css/ripples.min.css');
+@import url('./bootstrap-material-design.min.css');
+@import url('./ripples.min.css');
 /* Sweet Alert 2 */
-@import url('Web Pages/Framework-Gumby/css/sweetalert2.css');
+@import url('./sweetalert2.css');
 /* Malihu jQuery custom content scroller 3.1.5 */
-@import url('Web Pages/Framework-Gumby/css/jquery.mCustomScrollbar.css');
+@import url('./jquery.mCustomScrollbar.css');
 /* Material Design Iconic Font 2.2.0 */
-@import url('Web Pages/Framework-Gumby/css/material-design-iconic-font.min.css');
+@import url('./material-design-iconic-font.min.css');
 /*============ Fonts */
 @font-face {
     font-family: 'RobotoCondensedLight';
