@@ -220,25 +220,24 @@
                         <img src="Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">1 - Name (Admin)</h4>
+                        <h4 class="text-center text-titles">Lunes a Viernes (Jornada matutina)</h4>
                         <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
+                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Inicia: <em>9:00 AM</em> &nbsp;&nbsp;&nbsp; 
+                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> Termina: <em>13:00 PM</em>
                         </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
+                        
                     </div>
-                </div>  
+                </div>      
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
                         <img src="Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">2 - Name (Teacher)</h4>
+                        <h4 class="text-center text-titles">Lunes a Viernes (Jornada vespertina)</h4>
                         <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
+                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Inicia: <em>14:00 pM</em> &nbsp;&nbsp;&nbsp; 
+                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> Termina: <em>18:00 pM</em>
                         </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
                     </div>
                 </div>
                 <div class="cd-timeline-block">
@@ -246,12 +245,11 @@
                         <img src="Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">3 - Name (Student)</h4>
+                        <h4 class="text-center text-titles">Sábado</h4>
                         <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
+                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Inicia: <em>9:00 AM</em> &nbsp;&nbsp;&nbsp; 
+                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> Termina: <em>14:00 AM</em>
                         </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
                     </div>
                 </div>
                 <div class="cd-timeline-block">
@@ -259,95 +257,17 @@
                         <img src="Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
-                        <h4 class="text-center text-titles">4 - Name (Personal Ad.)</h4>
+                        <h4 class="text-center text-titles">Domingo</h4>
                         <p class="text-center">
-                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Start: <em>7:00 AM</em> &nbsp;&nbsp;&nbsp; 
-                            <i class="zmdi zmdi-time zmdi-hc-fw"></i> End: <em>7:17 AM</em>
+                            <i class="zmdi zmdi-timer zmdi-hc-fw"></i> Sin atención al cliente, hasta la jornada matutina del lunes
                         </p>
-                        <span class="cd-date"><i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> 07/07/2016</span>
                     </div>
                 </div>   
             </section>
-
-
-		</div>
+                </div>
 	</section>
 
-	<!-- Notifications area -->
-	<section class="full-box Notifications-area">
-		<div class="full-box Notifications-bg btn-Notifications-area"></div>
-		<div class="full-box Notifications-body">
-			<div class="Notifications-body-title text-titles text-center">
-				Notifications <i class="zmdi zmdi-close btn-Notifications-area"></i>
-			</div>
-			<div class="list-group">
-			  	<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-alert-triangle"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">17m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
-				    </div>
-			  	</div>
-			  	<div class="list-group-separator"></div>
-			  	<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-alert-octagon"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">15m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
-				    </div>
-			  	</div>
-			  	<div class="list-group-separator"></div>
-				<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-help"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">10m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-				    </div>
-				</div>
-			  	<div class="list-group-separator"></div>
-			  	<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-info"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">8m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-				    </div>
-			  	</div>
-			</div>
-
-		</div>
-	</section>
-
-	<!-- Dialog help -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="Dialog-Help">
-	  	<div class="modal-dialog" role="document">
-		    <div class="modal-content">
-			    <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			    	<h4 class="modal-title">Help</h4>
-			    </div>
-			    <div class="modal-body">
-			        <p>
-			        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt beatae esse velit ipsa sunt incidunt aut voluptas, nihil reiciendis maiores eaque hic vitae saepe voluptatibus. Ratione veritatis a unde autem!
-			        </p>
-			    </div>
-		      	<div class="modal-footer">
-		        	<button type="button" class="btn btn-primary btn-raised" data-dismiss="modal"><i class="zmdi zmdi-thumb-up"></i> Ok</button>
-		      	</div>
-		    </div>
-	  	</div>
-	</div>
+	
 	<!--====== Scripts -->
 	<script src="Framework-Gumby/js/jquery-3.1.1.min.js"></script>
 	<script src="Framework-Gumby/js/sweetalert2.min.js"></script>
