@@ -12,14 +12,14 @@ $(document).ready(function(){
 	});
 	$('.btn-exit-system').on('click', function(){
 		swal({
-		  	title: '¿Desea salir del sistema?'
+		  	title: '¿Desea salir del sistema?',
 		  	text: "Usted esta a punto de cerrar sesión y salir del sistema",
 		  	type: 'warning',
 		  	showCancelButton: true,
 		  	confirmButtonColor: '#03A9F4',
 		  	cancelButtonColor: '#F44336',
-		  	confirmButtonText: '<i class="zmdi zmdi-run"></i> Si, Exit!',
-		  	cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> No, Cancel!'
+		  	confirmButtonText: '<i class="zmdi zmdi-run"></i> Si, Salir!',
+		  	cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> No, Cancelar!'
 		}).then(function () {
 			window.location.href="login.jsp";
 		});
