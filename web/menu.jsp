@@ -57,7 +57,7 @@
 							<a href="registro_producto.jsp"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro Producto</a>
 						</li>
 						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Cliente</a>
+							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Proveedores</a>
 						</li>
 						<li>
 							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro Ventas</a>
@@ -139,6 +139,56 @@
 			  <h1 class="text-titles">Compustok <small>tu tienda de computación</small></h1>
 			</div>
 		</div>
+                <div class="container-fluid">
+                    <p class="text-titles text-center" > EMPRESA PRIVADA " COMPUSTOCK "-PICO SANTANA MILTON RAMIRO </p>
+                    <p class="text-titles text-center" > Venta al por menor de equipos tecnologicos, servicio tecnico, Redes y Telecomunicaciones, Desarrollo, Mantenimiento de Hardware</p>
+                    
+                    
+                    
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                             <img src="Imagenes/img/logo.jpg" style="width:100%">
+                             
+                        </div>
+
+                        <div class="mySlides fade">
+                                <img src="Imagenes/img/impresora.png" style="width:100%">
+                                
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Imagenes/img/lapto.jpg" style="width:100%">
+                            
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="Imagenes/img/pcescritorio.jpg" style="width:100%">
+                           
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="Imagenes/img/reloj.jpg" style="width:100%">
+                            
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="Imagenes/img/smart.jpg" style="width:100%">
+                            
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="Imagenes/img/productosverios.jpg" style="width:100%">
+                           
+                        </div>
+
+                        <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                <br>
+                </div>
 		<div class="full-box text-center" style="paddinge: 30px 10px;">
 			<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
@@ -187,7 +237,7 @@
 		</div>
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles">System <small>TimeLine</small></h1>
+			  <h1 class="text-titles">Horarios <small>Dias y horario de atención</small></h1>
 			</div>
 			<section id="cd-timeline" class="cd-container">
                 <div class="cd-timeline-block">
