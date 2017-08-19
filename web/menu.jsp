@@ -57,7 +57,7 @@
 							<a href="registro_producto.jsp"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro Producto</a>
 						</li>
 						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Proveedores</a>
+							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Proveedores</a>
 						</li>
 						<li>
 							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro Ventas</a>
@@ -179,14 +179,19 @@
                 <br>
                 </div>
 		<div class="full-box text-center" style="paddinge: 30px 10px;">
+                        <a href="registro_producto.jsp">
 			<article class="full-box tile">
+                            
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Productos
 				</div>
 				<div class="full-box tile-icon text-center">
 					<i class="zmdi zmdi-shopping-basket"></i>
 				</div>
+                           
 			</article>
+                        </a>
+                        <a href="registro_proveedores.jsp">
 			<article class="full-box tile">
                                     <div class="full-box tile-title text-center text-titles text-uppercase">
                                             Proveedores
@@ -195,6 +200,7 @@
                                             <i class="zmdi zmdi-male-female"></i>
                                     </div>
 			</article>
+                        </a>
 			<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Ventas

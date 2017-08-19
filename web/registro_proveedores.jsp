@@ -22,7 +22,7 @@
 		<div class="full-box dashboard-sideBar-ct">
 			<!--SideBar Title -->
 			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
-				Compañia <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+				InventarySystems <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
 			</div>
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
@@ -56,10 +56,10 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro de producto</a>
+							<a href="registro_producto.jsp"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro de producto</a>
 						</li>
 						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro de cliente</a>
+							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro de proveedores</a>
 						</li>
 						<li>
 							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro de venta</a>
@@ -74,11 +74,9 @@
 						<i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Usuarios <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
+						
 						<li>
-							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administrador</a>
-						</li>
-						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Cliente</a>
+							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Nuevo registro</a>
 						</li>
 						
 					</ul>
@@ -102,7 +100,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información de la empresa</a>
+							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
 						</li>
 					</ul>
 				</li>
@@ -119,72 +117,53 @@
 					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
 				</li>
 				<li>
-					<a href="#!" class="btn-Notifications-area">
-						<i class="zmdi zmdi-notifications-none"></i>
-						<span class="badge">7</span>
-					</a>
-				</li>
-				<li>
-					<a href="#!" class="btn-search">
-						<i class="zmdi zmdi-search"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#!" class="btn-modal-help">
-						<i class="zmdi zmdi-help-outline"></i>
-					</a>
+                                    <a href="#!" class="btn-exit-system">
+                                    <i class="zmdi zmdi-power"></i>
+                                    </a>
 				</li>
 			</ul>
 		</nav>
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro de productos</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Proveedor <small>Registro de proveedores</small></h1>
 			</div>
-			<p class="lead">Ingrese los productos que desea registrar</p>
+			<p class="lead">Ingrese el proveedor que desea registrar</p>
 		</div>
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
-                        <form action="ControlProducto.do" method="post">
+                        <form action="https://inventarysystems.000webhostapp.com/registro_proveedor.php" method="get">
                             <fieldset>
-                                <legend>REGISTRO PRODUCTOS</legend>
-                                    <ul>                                
+                                <legend>REGISTRO PROVEEDORES</legend>
+                                    <ul>
                                         <li class="field">
-                                            <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="txtcodigo" type="text" placeholder="p0029" required/>  
+                                            <label class="inline" for="text5">Cedula proveedor: </label>
+                                            <input class="wide text input" name="ced_prove" type="number" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text2">Nombre: </label>
-                                            <input class="wide text input" name="txtnombreproducto" type="text" placeholder="Mouse" required/>                                        
+                                            <label class="inline" for="text1">Nombre proveedor: </label>
+                                            <input class="wide text input" name="nom_prove" type="text" placeholder="Elva Maria" required/>  
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Descripción: </label>
-                                            <input class="wide text input" name="txtdescripcionproducto" type="text" placeholder="Mouse inalámbrico" required/>                                       
+                                            <label class="inline" for="text2">Apellido proveedor </label>
+                                            <input class="wide text input" name="apell_prove" type="text" placeholder="Jobs Morrison" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text4">Precio Compra: </label>
-                                            <input class="wide text input" name="txtpcompra" type="number" required/>                                        
+                                            <label class="inline" for="text3">Telefono proveedor: </label>
+                                            <input class="wide text input" name="tel_prove" type="text" placeholder="Nombre proveedor" required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text5">Precio Venta: </label>
-                                            <input class="wide text input" name="txtpventa" type="number" required/>                                        
+                                            <label class="inline" for="text3">Direccion proveedor: </label>
+                                            <input class="wide text input" name="dir_prove" type="text" placeholder="Mause Óptico" required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text6">Stock: </label>
-                                            <input class="wide text input" name="txtstockp" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text7">Stock Mínimo: </label>
-                                            <input class="wide text input" name="txtstockminimop" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text8">Fecha de Entrada: </label>
-                                            <input class="wide text input" name="txtfechaentrada" type="date" />                                        
-                                        </li>
+                                            <label class="inline" for="text4">Correo proveedor: </label>
+                                            <input class="wide text input" name="corre_prove" type="email" required/>                                        
+                                        </li>   
                                     </ul>
                                 <center>
-                                    <button type="submit" name="btnregistrarproducto">Guardar</button>
+                                    <button type="submit" name="btnregistrarproveedor" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
                                 </center>
                             </fieldset>  
                         </form> 
@@ -193,81 +172,6 @@
             </div>
 	</section>
 
-	<!-- Notifications area -->
-	<section class="full-box Notifications-area">
-		<div class="full-box Notifications-bg btn-Notifications-area"></div>
-		<div class="full-box Notifications-body">
-			<div class="Notifications-body-title text-titles text-center">
-				Notifications <i class="zmdi zmdi-close btn-Notifications-area"></i>
-			</div>
-			<div class="list-group">
-			  	<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-alert-triangle"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">17m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
-				    </div>
-			  	</div>
-			  	<div class="list-group-separator"></div>
-			  	<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-alert-octagon"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">15m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
-				    </div>
-			  	</div>
-			  	<div class="list-group-separator"></div>
-				<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-help"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">10m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-				    </div>
-				</div>
-			  	<div class="list-group-separator"></div>
-			  	<div class="list-group-item">
-				    <div class="row-action-primary">
-				      	<i class="zmdi zmdi-info"></i>
-				    </div>
-				    <div class="row-content">
-				      	<div class="least-content">8m</div>
-				      	<h4 class="list-group-item-heading">Tile with a label</h4>
-				      	<p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-				    </div>
-			  	</div>
-			</div>
-
-		</div>
-	</section>
-
-	<!-- Dialog help -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="Dialog-Help">
-	  	<div class="modal-dialog" role="document">
-		    <div class="modal-content">
-			    <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			    	<h4 class="modal-title">Ayuda</h4>
-			    </div>
-			    <div class="modal-body">
-			        <p>
-			        	!
-			        </p>
-			    </div>
-		      	<div class="modal-footer">
-		        	<button type="button" class="btn btn-primary btn-raised" data-dismiss="modal"><i class="zmdi zmdi-thumb-up"></i> Ok</button>
-		      	</div>
-		    </div>
-	  	</div>
-	</div>
 	<!--====== Scripts -->
 	<script src="Framework-Gumby/js/jquery-3.1.1.min.js"></script>
 	<script src="Framework-Gumby/js/sweetalert2.min.js"></script>
