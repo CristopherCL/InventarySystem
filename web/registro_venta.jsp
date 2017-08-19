@@ -1,6 +1,6 @@
 <%-- 
-    Document   : registro_producto
-    Created on : 17/08/2017, 17:24:17
+    Document   : registro_venta
+    Created on : 19/08/2017, 17:46:06
     Author     : CedenoSalazarBryanCa
 --%>
 
@@ -126,56 +126,50 @@
 		<%-- Content page --%>
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro de productos</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Ventas <small>Registro de las ventas</small></h1>
 			</div>
-			<p class="lead">Ingrese los productos que desea registrar</p>
+			<p class="lead">Ingrese los registros de ventas que desea </p>
 		</div>
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
-                        <form action="https://inventarysystems.000webhostapp.com/registro_producto.php" method="get">
+                        <form action="https://inventarysystems.000webhostapp.com/registro_venta.php" method="get">
                             <fieldset>
                                 <legend>REGISTRO PRODUCTOS</legend>
                                     <ul>                                
                                         <li class="field">
-                                            <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="cod_pro" type="text" placeholder="p0029" required/>  
+                                            <label class="inline" for="text1">Código venta: </label>
+                                            <input class="wide text input" name="cod_ven" type="text" placeholder="v0029" required/>  
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text2">Categoría: </label>
-                                            <input class="wide text input" name="cat_pro" type="text" placeholder="Mouse" required/>                                        
+                                            <label class="inline" for="text2">Cedula Cliente </label>
+                                            <input class="wide text input" name="ced_cliente" type="text" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Proveedor: </label>
-                                            <input class="wide text input" name="provee_pro" type="text" placeholder="Nombre proveedor" required/>                                       
+                                            <label class="inline" for="text2">Descripción de la venta </label>
+                                            <input class="wide text input" name="des_ven" type="text" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Descripción del producto: </label>
-                                            <input class="wide text input" name="descrip_pro" type="text" placeholder="Mause Óptico" required/>                                       
+                                            <label class="inline" for="text3">Cantidad total de ventas: </label>
+                                            <input class="wide text input" name="cant_ven" type="number" required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text4">Precio Compra: </label>
-                                            <input class="wide text input" name="precio_pro" type="number" step="0.01" required/>                                        
+                                            <label class="inline" for="text3">Precio total de venta: </label>
+                                            <input class="wide text input" name="pre_ven" type="number" step="0.01" required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text5">Precio Venta: </label>
-                                            <input class="wide text input" name="precio_v_pro" type="number" step="0.01" required/>                                        
+                                            <label class="inline" for="text5">Hora de venta: </label>
+                                            <input class="wide text input" name="hora_ven" type="time"  required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text6">Stock: </label>
-                                            <input class="wide text input" name="stock_pro" type="number" required/>                                        
+                                            <label class="inline" for="text4">Fecha de venta: </label>
+                                            <input class="wide text input" name="fech_ven" type="date" step="0.01" required/>                                        
                                         </li>
-                                        <li class="field">
-                                            <label class="inline" for="text7">Stock Mínimo: </label>
-                                            <input class="wide text input" name="stock_min_pro" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text8">Fecha de Entrada: </label>
-                                            <input class="wide text input"  name="fech_pro" type="date" />                                        
-                                        </li>
+                                        
+                                        
                                     </ul>
                                 <center>
-                                    <button type="submit" name="btnregistrarproducto" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
+                                    <button type="submit" name="btnregistrarventa" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
                                 </center>
                             </fieldset>  
                         </form> 

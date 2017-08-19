@@ -12,11 +12,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
         <link rel="stylesheet" href="Mis estilos\miestilo.css">
 </head>
 <body>
-	<!-- SideBar -->
+    <%--SideBar--%> 
 	<section class="full-box cover dashboard-sideBar">
 		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
 		<div class="full-box dashboard-sideBar-ct">
@@ -62,7 +62,7 @@
 							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro de proveedores</a>
 						</li>
 						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro de venta</a>
+							<a href="registro_venta.jsp"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro de venta</a>
 						</li>
 						<li>
 							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Registro de inventario</a>

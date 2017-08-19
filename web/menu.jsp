@@ -60,7 +60,7 @@
 							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Proveedores</a>
 						</li>
 						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro Ventas</a>
+							<a href="registro_venta.jsp"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro Ventas</a>
 						</li>
 						<li>
 							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i>Registro Inventario</a>
@@ -73,10 +73,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administrador</a>
-						</li>
-						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Cliente</a>
+							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Nuevo usuario</a>
 						</li>
 					</ul>
 				</li>
@@ -99,7 +96,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> School Data</a>
+							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
 						</li>
 					</ul>
 				</li>
@@ -201,6 +198,7 @@
                                     </div>
 			</article>
                         </a>
+                    <a href="registro_venta.jsp">
 			<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Ventas
@@ -209,6 +207,7 @@
 					<i class="zmdi zmdi-money"></i>
 				</div>
 			</article>
+                    </a>
 			<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Inventario
