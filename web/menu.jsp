@@ -122,7 +122,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles">Compustok <small>tu tienda de computación</small></h1>
+			  <h1 class="text-titles">Compustock <small>tu tienda de computación</small></h1>
 			</div>
 		</div>
                 <div class="container-fluid">
