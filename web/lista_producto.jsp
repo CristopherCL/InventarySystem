@@ -8,15 +8,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Registration</title>
+	<title>Lista productos</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">   
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
-        <link rel="stylesheet" href="Mis estilos\miestilo.css">
+	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
+        
 </head>
 <body>
-    <%-- SideBar --%>
+	<!-- SideBar -->
 	<section class="full-box cover dashboard-sideBar">
 		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
 		<div class="full-box dashboard-sideBar-ct">
@@ -43,7 +42,7 @@
 					</li>
 				</ul>
 			</div>
-			<%-- SideBar Menu --%>
+			<!-- SideBar Menu -->
 			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
 				<li>
 					<a href="menu.jsp">
@@ -52,7 +51,7 @@
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administracion <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administración <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
@@ -74,11 +73,9 @@
 						<i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Usuarios <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
-						
 						<li>
 							<a href="registro_cliente.jsp"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Usuario/Cliente</a>
 						</li>
-						
 					</ul>
 				</li>
 				<li>
@@ -87,16 +84,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta de producto</a>
+							<a href="lista_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta productos</a>
 						</li>
 						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i>Consulta de inventario</a>
+							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Consulta inventarios</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Información de la empresa <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Informacion de la empresa <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
@@ -108,9 +105,9 @@
 		</div>
 	</section>
 
-	<%-- Content page--%>
+	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
-		<%-- NavBar --%>
+		<!-- NavBar -->
 		<nav class="full-box dashboard-Navbar">
 			<ul class="full-box list-unstyled text-right">
 				<li class="pull-left">
@@ -134,56 +131,11 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li class="active"><a href="#new" data-toggle="tab">New</a></li>
+                                            <li class="active"></li>
 					  	<li><a href="#list" data-toggle="tab">List</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade active in" id="new">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
-									    	<div class="form-group label-floating">
-											  <label class="control-label">Payment</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Amount</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Student Code</label>
-											  <textarea class="form-control"></textarea>
-											</div>
-											<div class="form-group">
-										        <label class="control-label">Section</label>
-										        <select class="form-control">
-										          <option>1 grade</option>
-										          <option>2 grade</option>
-										          <option>3 grade</option>
-										          <option>4 grade</option>
-										          <option>5 grade</option>
-										        </select>
-										    </div>
-											<div class="form-group">
-										        <label class="control-label">Year</label>
-										        <select class="form-control">
-										          <option>2017</option>
-										          <option>2016</option>
-										          <option>2015</option>
-										          <option>2014</option>
-										          <option>2013</option>
-										        </select>
-										    </div>
-										    <p class="text-center">
-										    	<button href="#!" class="btn btn-info btn-raised btn-sm"><i class="zmdi zmdi-floppy"></i> Save</button>
-										    </p>
-									    </form>
-									</div>
-								</div>
-							</div>
-						</div>
-					  	<div class="tab-pane fade" id="list">
+						<div class="tab-pane fade" id="list">
 							<div class="table-responsive">
 								<table class="table table-hover text-center">
 									<thead>
@@ -264,7 +216,7 @@
 	</section>
 
 	
-	<%--====== Scripts --%>
+	<!--====== Scripts -->
 	<script src="Framework-Gumby/js/jquery-3.1.1.min.js"></script>
 	<script src="Framework-Gumby/js/sweetalert2.min.js"></script>
 	<script src="Framework-Gumby/js/bootstrap.min.js"></script>
