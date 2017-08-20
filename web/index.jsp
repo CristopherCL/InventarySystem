@@ -5,6 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -150,8 +153,8 @@
         </section>     
     </aside>
         --%>
-        
-        <form action="controlcliente.do" method="post">
+        <c:url value="controlcliente.do" var="url"></c:url>
+        <form action="${url}" method="post">
             
             <label id="cedula">Cedula:</label>
             <input type="text" name="txtcedula"><br><br>
@@ -163,7 +166,7 @@
             <input type="text" name="txtdireccion"><br><br>
             <label id="telefono">Telefono:</label>
             <input type="text" name="txttelefono"><br><br>
-            <button type="submit" name="btnregistro">Registrar</button>
+            <input type="submit" name="btnregistro" value="Registrar">
         </form>
         
     </body>

@@ -72,7 +72,7 @@ public class conect extends javax.swing.JFrame {
             // TODO add your handling code here:
             Connection cn = con.conexion();
             PreparedStatement ingreso = cn.prepareStatement("INSERT INTO cliente (cedula,nombre,apellido,direccion,telefono) VALUES (?,?,?,?,?)");
-            ingreso.setString(1, "listo2");
+            ingreso.setString(1, "listo3");
             ingreso.setString(2, "listo");
             ingreso.setString(3, "listo");
             ingreso.setString(4, "listo");

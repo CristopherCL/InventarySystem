@@ -18,7 +18,7 @@
         <div class="four columns">
             <section class="Seccion"> 
                 <center>
-                    <form>
+                    <form action="ControlCategoria.do" method="post">
                         <fieldset>
                             <legend>REGISTRO CATEGORIA</legend> <br>
                                 <ul>                                
