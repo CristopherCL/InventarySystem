@@ -1,6 +1,6 @@
 <%-- 
-    Document   : registro_producto
-    Created on : 17/08/2017, 17:24:17
+    Document   : registro_inventario
+    Created on : 20/08/2017, 0:58:56
     Author     : CedenoSalazarBryanCa
 --%>
 
@@ -126,56 +126,45 @@
 		<%-- Content page --%>
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro de productos</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Inventario <small>Registro de inventario</small></h1>
 			</div>
-			<p class="lead">Ingrese los productos que desea registrar</p>
+			<p class="lead">Ingrese el inventario que desea registrar</p>
 		</div>
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
                         <form action="https://inventarysystems.000webhostapp.com/registro_producto.php" method="get">
                             <fieldset>
-                                <legend>REGISTRO PRODUCTOS</legend>
+                                <legend>REGISTRO INVENTARIO</legend>
                                     <ul>                                
                                         <li class="field">
-                                            <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="cod_pro" type="text" placeholder="p0029" required/>  
+                                            <label class="inline" for="text1">Código inventario: </label>
+                                            <input class="wide text input" name="cod_inv" type="text" placeholder="i0029" required/>  
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text2">Categoría: </label>
-                                            <input class="wide text input" name="cat_pro" type="text" placeholder="Mouse" required/>                                        
+                                            <label class="inline" for="text2">Descripción Inventario </label>
+                                            <input class="wide text input" name="des_inve" type="text" placeholder="Inventario de Mouse" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Proveedor: </label>
-                                            <input class="wide text input" name="provee_pro" type="text" placeholder="Nombre proveedor" required/>                                       
+                                            <label class="inline" for="text3">Producto inventario: </label>
+                                            <input class="wide text input" name="prod_inve" type="text"  required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Descripción del producto: </label>
-                                            <input class="wide text input" name="descrip_pro" type="text" placeholder="Mause Óptico" required/>                                       
+                                            <label class="inline" for="text4">Piezas entradas: </label>
+                                            <input class="wide text input" name="pieza_ent" type="number" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text4">Precio Compra: </label>
-                                            <input class="wide text input" name="precio_pro" type="number" step="0.01" required/>                                        
+                                            <label class="inline" for="text5">Piezas salidas: </label>
+                                                <input class="wide text input" name="pieza_sal" type="number" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text5">Precio Venta: </label>
-                                            <input class="wide text input" name="precio_v_pro" type="number" step="0.01" required/>                                        
+                                            <label class="inline" for="text6">Total restante: </label>
+                                            <input class="wide text input" name="tot_rest" type="number" required/>                                        
                                         </li>
-                                        <li class="field">
-                                            <label class="inline" for="text6">Stock: </label>
-                                            <input class="wide text input" name="stock_pro" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text7">Stock Mínimo: </label>
-                                            <input class="wide text input" name="stock_min_pro" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text8">Fecha de Entrada: </label>
-                                            <input class="wide text input"  name="fech_pro" type="date" />                                        
-                                        </li>
+                                       
                                     </ul>
                                 <center>
-                                    <button type="submit" name="btnregistrarproducto" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
+                                    <button type="submit" name="btnregistrainventario" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
                                 </center>
                             </fieldset>  
                         </form> 

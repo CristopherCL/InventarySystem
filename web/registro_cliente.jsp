@@ -1,6 +1,6 @@
 <%-- 
-    Document   : registro_producto
-    Created on : 17/08/2017, 17:24:17
+    Document   : regristro_cliente
+    Created on : 20/08/2017, 4:02:27
     Author     : CedenoSalazarBryanCa
 --%>
 
@@ -12,11 +12,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
         <link rel="stylesheet" href="Mis estilos\miestilo.css">
 </head>
 <body>
-    <%-- SideBar --%>
+    <%--SideBar--%> 
 	<section class="full-box cover dashboard-sideBar">
 		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
 		<div class="full-box dashboard-sideBar-ct">
@@ -43,7 +43,7 @@
 					</li>
 				</ul>
 			</div>
-			<%-- SideBar Menu --%>
+			<!-- SideBar Menu -->
 			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
 				<li>
 					<a href="menu.jsp">
@@ -108,9 +108,9 @@
 		</div>
 	</section>
 
-	<%-- Content page--%>
+	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
-		<%-- NavBar --%>
+		<!-- NavBar -->
 		<nav class="full-box dashboard-Navbar">
 			<ul class="full-box list-unstyled text-right">
 				<li class="pull-left">
@@ -125,57 +125,49 @@
 		</nav>
 		<%-- Content page --%>
 		<div class="container-fluid">
-			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro de productos</small></h1>
+			<div class="page-header"> 
+			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Cliente <small>Registro de clientes</small></h1>
 			</div>
-			<p class="lead">Ingrese los productos que desea registrar</p>
+			<p class="lead">Ingrese el cliente que desea registrar</p>
 		</div>
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
-                        <form action="https://inventarysystems.000webhostapp.com/registro_producto.php" method="get">
+                        <form action="https://inventarysystems.000webhostapp.com/registro_proveedor.php" method="get">
                             <fieldset>
-                                <legend>REGISTRO PRODUCTOS</legend>
-                                    <ul>                                
+                                <legend>REGISTRO PROVEEDORES</legend>
+                                    <ul>
                                         <li class="field">
-                                            <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="cod_pro" type="text" placeholder="p0029" required/>  
+                                            <label class="inline" for="text5">Cedula cliente: </label>
+                                            <input class="wide text input" name="ced_cli" type="number" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text2">Categoría: </label>
-                                            <input class="wide text input" name="cat_pro" type="text" placeholder="Mouse" required/>                                        
+                                            <label class="inline" for="text1">Nombre cliente: </label>
+                                            <input class="wide text input" name="nom_cli" type="text" placeholder="Elva Maria" required/>  
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Proveedor: </label>
-                                            <input class="wide text input" name="provee_pro" type="text" placeholder="Nombre proveedor" required/>                                       
+                                            <label class="inline" for="text2">Apellido cliente: </label>
+                                            <input class="wide text input" name="apell_cli" type="text" placeholder="Jobs Morrison" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text3">Descripción del producto: </label>
-                                            <input class="wide text input" name="descrip_pro" type="text" placeholder="Mause Óptico" required/>                                       
+                                            <label class="inline" for="text3">Telefono cliente: </label>
+                                            <input class="wide text input" name="tel_cli" type="text"  required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text4">Precio Compra: </label>
-                                            <input class="wide text input" name="precio_pro" type="number" step="0.01" required/>                                        
+                                            <label class="inline" for="text3">Direccion cliente: </label>
+                                            <input class="wide text input" name="dir_cli" type="text"  required/>                                       
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text5">Precio Venta: </label>
-                                            <input class="wide text input" name="precio_v_pro" type="number" step="0.01" required/>                                        
+                                            <label class="inline" for="text4">Correo cliente: </label>
+                                            <input class="wide text input" name="corre_cli" type="email" required/>                                        
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text6">Stock: </label>
-                                            <input class="wide text input" name="stock_pro" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text7">Stock Mínimo: </label>
-                                            <input class="wide text input" name="stock_min_pro" type="number" required/>                                        
-                                        </li>
-                                        <li class="field">
-                                            <label class="inline" for="text8">Fecha de Entrada: </label>
-                                            <input class="wide text input"  name="fech_pro" type="date" />                                        
-                                        </li>
+                                            <label class="inline" for="text4">Contraseña cliente: </label>
+                                            <input class="wide text input" name="contra_cli" type="password" required/>                                        
+                                        </li>    
                                     </ul>
                                 <center>
-                                    <button type="submit" name="btnregistrarproducto" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
+                                    <button type="submit" name="btnregistrarproveedor" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
                                 </center>
                             </fieldset>  
                         </form> 
@@ -184,7 +176,7 @@
             </div>
 	</section>
 
-	<%--====== Scripts --%>
+	<!--====== Scripts -->
 	<script src="Framework-Gumby/js/jquery-3.1.1.min.js"></script>
 	<script src="Framework-Gumby/js/sweetalert2.min.js"></script>
 	<script src="Framework-Gumby/js/bootstrap.min.js"></script>

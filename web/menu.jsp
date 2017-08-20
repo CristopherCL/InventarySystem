@@ -54,16 +54,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registro_producto.jsp"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro Producto</a>
+							<a href="registro_producto.jsp"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Registro Producto</a>
 						</li>
 						<li>
-							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro Proveedores</a>
+							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Registro Proveedores</a>
+						</li> 
+						<li>
+							<a href="registro_venta.jsp"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Registro Ventas</a>
 						</li>
 						<li>
-							<a href="registro_venta.jsp"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro Ventas</a>
-						</li>
-						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i>Registro Inventario</a>
+							<a href="registro_inventario.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i>Registro Inventario</a>
 						</li>
 					</ul>
 				</li>
@@ -73,7 +73,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Nuevo usuario</a>
+							<a href="registro_cliente.jsp"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Usuario/Cliente</a>
 						</li>
 					</ul>
 				</li>
@@ -183,7 +183,7 @@
 					Productos
 				</div>
 				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-shopping-basket"></i>
+					<i class="zmdi zmdi-shopping-cart"></i>
 				</div>
                            
 			</article>
@@ -207,15 +207,17 @@
 					<i class="zmdi zmdi-money"></i>
 				</div>
 			</article>
-                    </a>
+                    </a> 
+                    <a href="registro_inventario.jsp">
 			<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Inventario
 				</div>
 				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-shopping-cart"></i>
+					<i class="zmdi zmdi-book"></i>
 				</div>
 			</article>
+                    </a>
 		</div>
 		<div class="container-fluid">
 			<div class="page-header">

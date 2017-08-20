@@ -56,16 +56,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registro_producto.jsp"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Registro de producto</a>
+							<a href="registro_producto.jsp"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Registro Producto</a>
 						</li>
 						<li>
-							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Registro de proveedores</a>
+							<a href="registro_proveedores.jsp"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Registro Proveedores</a>
+						</li> 
+						<li>
+							<a href="registro_venta.jsp"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Registro Ventas</a>
 						</li>
 						<li>
-							<a href="registro_venta.jsp"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Registro de venta</a>
-						</li>
-						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Registro de inventario</a>
+							<a href="registro_inventario.jsp"><i class="zmdi zmdi-book zmdi-hc-fw"></i>Registro Inventario</a>
 						</li>
 					</ul>
 				</li>
@@ -76,7 +76,7 @@
 					<ul class="list-unstyled full-box">
 						
 						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Nuevo registro</a>
+							<a href="registro_cliente.jsp"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Usuario/Cliente</a>
 						</li>
 						
 					</ul>
@@ -126,7 +126,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Proveedor <small>Registro de proveedores</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Proveedor <small>Registro de proveedores</small></h1>
 			</div>
 			<p class="lead">Ingrese el proveedor que desea registrar</p>
 		</div>
