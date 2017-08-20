@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="Mis estilos\miestilo.css">
 </head>
 <body>
-    <%--SideBar--%> 
+    <%--SideBar gggggggggg--%> 
 	<section class="full-box cover dashboard-sideBar">
 		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
 		<div class="full-box dashboard-sideBar-ct">
