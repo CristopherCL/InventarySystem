@@ -133,7 +133,7 @@
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
-                        <form action="https://inventarysystems.000webhostapp.com/registro_producto.php" method="get">
+                        <form action="https://inventarysystems.000webhostapp.com/registro_inventario.php" method="get">
                             <fieldset>
                                 <legend>REGISTRO INVENTARIO</legend>
                                     <ul>                                
@@ -171,6 +171,7 @@
                     </center>
                 </section>             
             </div>
+                <jsp:include page="Mis estilos/pie_pagina.jsp" />
 	</section>
 
 	<%--====== Scripts --%>

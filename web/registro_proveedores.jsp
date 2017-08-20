@@ -170,6 +170,7 @@
                     </center>
                 </section>             
             </div>
+                <jsp:include page="Mis estilos/pie_pagina.jsp" />
 	</section>
 
 	<!--====== Scripts -->

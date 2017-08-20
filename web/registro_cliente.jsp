@@ -76,7 +76,7 @@
 					<ul class="list-unstyled full-box">
 						
 						<li>
-							<a href="registro_cliente.jsp"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Usuario/Cliente</a>
+                                                    <a href="registro_cliente.jsp"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Usuario/Cliente</a>
 						</li>
 						
 					</ul>
@@ -133,7 +133,7 @@
 		<div class="four columns">
                 <section class="Seccion"> 
                     <center>
-                        <form action="https://inventarysystems.000webhostapp.com/registro_proveedor.php" method="get">
+                        <form action="https://inventarysystems.000webhostapp.com/registro_cliente.php" method="get">
                             <fieldset>
                                 <legend>REGISTRO PROVEEDORES</legend>
                                     <ul>
@@ -174,6 +174,7 @@
                     </center>
                 </section>             
             </div>
+                <jsp:include page="Mis estilos/pie_pagina.jsp" />
 	</section>
 
 	<!--====== Scripts -->

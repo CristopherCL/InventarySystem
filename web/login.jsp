@@ -30,7 +30,9 @@
 		<div class="form-group text-center">
 			<input type="submit" value="Iniciar sesión" class="btn btn-raised btn-danger">
 		</div>
+                
 	</form>
+    
 	<!--====== Scripts -->
 	<script src="Framework-Gumby/js/jquery-3.1.1.min.js"></script>
 	<script src="Framework-Gumby/js/bootstrap.min.js"></script>
@@ -42,5 +44,7 @@
 	<script>
 		$.material.init();
 	</script>
+        
 </body>
+
 </html>
