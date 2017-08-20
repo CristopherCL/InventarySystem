@@ -126,11 +126,13 @@
 		<%-- Content page --%>
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro de productos</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i> Productos <small>Registro</small></h1>
 			</div>
 			<p class="lead">Ingrese los productos que desea registrar</p>
 		</div>
-		<div class="four columns">
+		<div class="table-responsive">
+                <div class="container-fluid">
+		<div class="row">
                 <section class="Seccion"> 
                     <center>
                         <form action="https://inventarysystems.000webhostapp.com/registro_producto.php" method="get">
@@ -182,7 +184,7 @@
                     </center>
                 </section>             
             </div>
-                <jsp:include page="Mis estilos/pie_pagina.jsp" />
+                </div></div>
 	</section>
 
 	<%--====== Scripts --%>

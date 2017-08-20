@@ -126,11 +126,13 @@
 		<%-- Content page --%>
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Ventas <small>Registro de las ventas</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Ventas <small>Registro</small></h1>
 			</div>
 			<p class="lead">Ingrese los registros de ventas que desea </p>
 		</div>
-		<div class="four columns">
+		<div class="table-responsive">
+                <div class="container-fluid">
+		<div class="row">
                 <section class="Seccion"> 
                     <center>
                         <form action="https://inventarysystems.000webhostapp.com/registro_venta.php" method="get">
@@ -165,9 +167,7 @@
                                             <label class="inline" for="text4">Fecha de venta: </label>
                                             <input class="wide text input" name="fech_ven" type="date" step="0.01" required/>                                        
                                         </li>
-                                        
-                                        
-                                    </ul>
+                                   </ul>
                                 <center>
                                     <button type="submit" name="btnregistrarventa" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
                                 </center>
@@ -175,8 +175,7 @@
                         </form> 
                     </center>
                 </section>             
-            </div>
-                <jsp:include page="Mis estilos/pie_pagina.jsp" />
+                </div></div></div>
 	</section>
 
 	<%--====== Scripts --%>

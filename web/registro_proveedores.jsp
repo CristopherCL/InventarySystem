@@ -126,11 +126,13 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Proveedor <small>Registro de proveedores</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Proveedor <small>Registro</small></h1>
 			</div>
 			<p class="lead">Ingrese el proveedor que desea registrar</p>
 		</div>
-		<div class="four columns">
+		<div class="table-responsive">
+                <div class="container-fluid">
+		<div class="row">
                 <section class="Seccion"> 
                     <center>
                         <form action="https://inventarysystems.000webhostapp.com/registro_proveedor.php" method="get">
@@ -169,8 +171,7 @@
                         </form> 
                     </center>
                 </section>             
-            </div>
-                <jsp:include page="Mis estilos/pie_pagina.jsp" />
+                </div></div></div>
 	</section>
 
 	<!--====== Scripts -->
