@@ -15,7 +15,7 @@
         
 </head>
 <body>
-	<!-- SideBar -->
+	<%-- SideBar --%>
 	<section class="full-box cover dashboard-sideBar">
 		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
 		<div class="full-box dashboard-sideBar-ct">
