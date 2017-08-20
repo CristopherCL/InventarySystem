@@ -10,5 +10,5 @@ package DAO;
  * @author CRISTOPHER-PC
  */
 public class DAOCategoria {
-    
+    //Nuevo clone 
 }
