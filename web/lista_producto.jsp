@@ -136,8 +136,8 @@
 					</ul>
 					<div id="myTabContent" class="tab-content">
 						<div class="tab-pane fade" id="list">
-							<div class="table-responsive">
-								<table class="table table-hover text-center">
+							<div class="table-responsive" >
+								<table class="table table-hover text-center" >
 									<thead>
 										<tr>
 											<th class="text-center">#</th>

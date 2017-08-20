@@ -92,7 +92,7 @@ body, html{
 .dashboard-sideBar{
 	left: 0;
 	z-index: 2;
-	background-image: url('..\Imagenes\img\sideBar.jpg');
+	background-image: url('../Imagenes/img/sideBar.jpg');
 	border-right: 1px solid rgba(255, 255, 255, .4);
 	overflow: hidden;
 }
