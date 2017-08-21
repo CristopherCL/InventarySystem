@@ -94,7 +94,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
+							<a href="informacion.jsp"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
 						</li>
 					</ul>
 				</li>
@@ -145,10 +145,12 @@
 											  <input class="form-control"  name="cod_pro" type="text" required>
 											</div>
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
                                                                                         <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
+                                                                            <p class="text-center">
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_producto.php"><button><i class="zmdi zmdi-floppy"></i>Lista de productos</button></a>
+                                                                            </p>
 									</div>
 								</div>
 							</div>
@@ -164,10 +166,12 @@
 											</div>
 											
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
+										    	<button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
+                                                                            <p class="text-center">
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_proveedores.php"><button><i class="zmdi zmdi-floppy"></i>Lista de productos</button></a>
+                                                                            </p>
 									</div>
 								</div>
 							</div>
@@ -204,10 +208,12 @@
 											</div>
 											
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
                                                                                         <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
+                                                                            <p class="text-center">
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_venta.php"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            </p>
 									</div>
 								</div>
 							</div>
@@ -222,11 +228,13 @@
 											  <input class="form-control"  name="cod_inv" type="text" required>
 											</div>
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
                                                                                         <button href="" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
                                                                                       
 										    </p>
 									    </form>
+                                                                            <p class="text-center">
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_inventario.php"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            </p>
 									</div>
 								</div>
 							</div>

@@ -98,7 +98,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
+							<a href="informacion.jsp"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Información</a>
 						</li>
 					</ul>
 				</li>
@@ -130,6 +130,14 @@
                 <div class="container-fluid">
                     <p class="text-titles text-center" > EMPRESA PRIVADA " COMPUSTOCK "-PICO SANTANA MILTON RAMIRO </p>
                     <p class="text-titles text-center" > Venta al por menor de equipos tecnologicos, servicio tecnico, Redes y Telecomunicaciones, Desarrollo, Mantenimiento de Hardware</p>
+                    <p class="text-titles " >Área de Conocimiento	Redes y Telecomunicaciones; Desarrollo; Mantenimiento de Hardware</p>
+                    <p class="text-titles " >Representante Legal	Ing. Milton Ramiro Pico Santana</p>
+                    <p class="text-titles " >Contacto	Ing. Milton Ramiro Pico Santana, Ing. María Belen Muñoz</p>
+                    <p class="text-titles " >Número de Telefono	052628951, 0984396907</p>
+                    <p class="text-titles " >Correo Eléctronico	computec-mta@hotmail.com</p>
+                    <p class="text-titles " >Dirección	Ave. 23 entre Calle 12 y 13 , Manta</p>
+                    <p class="text-titles " >RUC	1308588332001</p>
+                    <p class="text-titles " >Sector	Privado</p>
                     
                     
 	
