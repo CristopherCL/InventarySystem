@@ -103,3 +103,18 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+function onOpen() {
+  SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
+      .createMenu('Dialog')
+      .addItem('Open', 'openDialog')
+      .addToUi();
+}
+
+function openDialog() {
+  var html = HtmlService.createHtmlOutputFromFile('informacion.jsp');
+  SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
+      .showModalDialog(html, 'Dialog title');
+}
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('informacion.jsp');
+}
