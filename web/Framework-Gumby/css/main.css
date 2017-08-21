@@ -76,6 +76,11 @@ body, html{
 .logInForm label{
 	color: #FFF;
 }
+.logInForm input{
+	color: #FFF;
+        background-color: rgba(242, 48, 48, .7);    
+}
+
 /*============ Partes del dashboard*/
 .dashboard-sideBar,
 .dashboard-contentPage{

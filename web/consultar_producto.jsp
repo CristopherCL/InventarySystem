@@ -80,11 +80,11 @@
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Consulta <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Consulta/Eliminación <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="consultar_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta productos</a>
+							<a href="consultar_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta/Eliminación </a>
 						</li>
 					</ul>
 				</li>
@@ -139,46 +139,13 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
+									    <form action="http://inventarysystems.000webhostapp.com/eliminar_producto.php" method="post">
 									    	<div class="form-group label-floating">
-											  <label class="control-label">Código</label>
+											  <label class="control-label">Código producto</label>
 											  <input class="form-control"  name="cod_pro" type="text" required>
 											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Categoría</label>
-											  <input class="form-control" name="cat_pro" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Proveedor</label>
-											  <input class="form-control" name="provee_pro" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Descrcipción producto</label>
-											  <input class="form-control" name="descrip_pro" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Precio compra</label>
-											  <input class="form-control" name="precio_pro" type="number" step="0.01">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Precio venta</label>
-											  <input class="form-control" name="precio_v_pro" type="number" step="0.01">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Stok</label>
-											  <input class="form-control" name="stok_pro" type="number">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Stok Minimo</label>
-											  <input class="form-control" name="stock_min_pro" type="number">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label >Fecha de entrada</label>
-											  <input class="form-control" name="fech_pro" type="date">
-											</div>
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Buscar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-refresh"></i>Actualizar</button>
+										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
                                                                                         <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
@@ -190,35 +157,14 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
+									    <form action="http://inventarysystems.000webhostapp.com/eliminar_proveedor.php" method="post">
 									    	<div class="form-group label-floating">
 											  <label class="control-label">Cédula proveedor</label>
 											  <input class="form-control"  name="ced_prove" type="text" required>
 											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Nombre proveedor</label>
-											  <input class="form-control" name="nom_prove" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Apellido Proveedor</label>
-											  <input class="form-control" name="apell_prove" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Telefono Proveedor</label>
-											  <input class="form-control" name="tel_prove" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Dirección proveedor</label>
-											  <input class="form-control" name="dir_prove" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Correo proveedor</label>
-											  <input class="form-control" name="corre_prove" type="text" >
-											</div>
-                                                                              
+											
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Buscar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-refresh"></i>Actualizar</button>
+										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
                                                                                         <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
@@ -230,44 +176,20 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="https://inventarysystems.000webhostapp.com/listar_cliente.php" method="get">
+									    <form action="http://inventarysystems.000webhostapp.com/eliminar_cliente.php" method="post">
 									    	<div class="form-group label-floating">
 											  <label class="control-label">Cédula cliente</label>
-											  <input class="form-control"  name="ced_cli" type="text" required>
-                                                                                          <button href="#cliente" ><i class="zmdi zmdi-floppy"></i>Buscar</button>
-											</div>
-                                                                                
-											<div class="form-group label-floating">
-											  <label class="control-label">Nombre cliente</label>
-											  <input class="form-control" name="nom_cli" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Apellido cliente</label>
-											  <input class="form-control" name="apell_cli" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Telefono cliente</label>
-											  <input class="form-control" name="tel_cli" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Dirección cliente</label>
-											  <input class="form-control" name="dir_cli" type="text" >
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Correo cliente</label>
-											  <input class="form-control" name="corre_cli" type="text" >
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Contraseña</label>
-											  <input class="form-control" name="contra_cli" type="text" >
+											  <input class="form-control"  name="ced_cli" type="text" >
 											</div>
 										  <p class="text-center">
-										    	<button href="#cliente" ><i class="zmdi zmdi-floppy"></i>Buscar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-refresh"></i>Actualizar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
+                                                                                          
+                                                                                        <button ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
-									</div>
+                                                                            <p class="text-center">
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_cliente.php"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            </p>
+                                                                        </div>
 								</div>
 							</div>
 						</div>
@@ -275,38 +197,14 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
+									    <form action="http://inventarysystems.000webhostapp.com/eliminar_venta.php" method="post">
 									    	<div class="form-group label-floating">
 											  <label class="control-label">Código venta</label>
 											  <input class="form-control"  name="cod_ven" type="text" required>
 											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Cédula cliente</label>
-											  <input class="form-control" name="ced_cliente" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Descripción de la venta</label>
-											  <input class="form-control" name="des_ven" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Cantidad total de la venta</label>
-											  <input class="form-control" name="cant_ven" type="number">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Precio total de venta</label>
-											  <input class="form-control" name="pre_ven" type="number" step="0.01">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Hora de venta</label>
-											  <input class="form-control" name="hora_ven" type="time" >
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Fecha de venta</label>
-											  <input class="form-control" name="fech_ven" type="date" >
-											</div>
+											
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Buscar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-refresh"></i>Actualizar</button>
+										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
                                                                                         <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
 										    </p>
 									    </form>
@@ -318,35 +216,15 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
+                                                                            <form action="http://inventarysystems.000webhostapp.com/eliminar_inventario.php" method="post">
 									    	<div class="form-group label-floating">
 											  <label class="control-label">Código inventario</label>
 											  <input class="form-control"  name="cod_inv" type="text" required>
 											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Descripción inventario</label>
-											  <input class="form-control" name="des_inve" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Producto inventario</label>
-											  <input class="form-control" name="prod_inve" type="text">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Piezas entradas</label>
-											  <input class="form-control" name="pieza_ent" type="number">
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Piezas salidas</label>
-											  <input class="form-control" name="pieza_sal" type="number" >
-											</div>
-                                                                                <div class="form-group label-floating">
-											  <label class="control-label">Total restantes</label>
-											  <input class="form-control" name="tot_rest" type="number" >
-											</div>
 										  <p class="text-center">
-										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Buscar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-refresh"></i>Actualizar</button>
-                                                                                        <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
+										    	<button href="#!" ><i class="zmdi zmdi-floppy"></i>Lista de registros</button>
+                                                                                        <button href="" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
+                                                                                      
 										    </p>
 									    </form>
 									</div>

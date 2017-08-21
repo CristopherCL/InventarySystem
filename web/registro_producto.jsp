@@ -83,11 +83,11 @@
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Consulta <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Consulta/Eliminación <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="consultar_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta de producto</a>
+							<a href="consultar_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i>Consulta/Eliminación</a>
 						</li>
 					</ul>
 				</li>
@@ -191,7 +191,7 @@
 	<script src="Framework-Gumby/js/material.min.js"></script>
 	<script src="Framework-Gumby/js/ripples.min.js"></script>
 	<script src="Framework-Gumby/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="Framework-Gumby/js/main_1.js"></script>
+	<script src="Framework-Gumby/js/main.js"></script>
 	<script>
 		$.material.init();
 	</script>
