@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registro proveedor</title>
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
     </head>
     <body>
         <section>

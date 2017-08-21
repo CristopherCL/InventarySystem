@@ -83,7 +83,7 @@ $(document).ready(function(){
         });
     });
 })(jQuery);
- 
+
 var slideIndex = 0;
 showSlides();
 

@@ -11,10 +11,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
-        <link rel="stylesheet" href="Framework-Gumby\css\style.css">
-        <link rel="stylesheet" href="Framework-Gumby\csstabla">
-        <script src="js/libs/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/style.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/tabla">
+        <script src="Framework-Gumby/js/libs/modernizr-2.6.2.min.js"></script>
         
         
     </head>

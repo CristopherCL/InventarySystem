@@ -92,7 +92,7 @@ body, html{
 .dashboard-sideBar{
 	left: 0;
 	z-index: 2;
-	background-image: url('../Imagenes/img/sideBar-font.jpg');
+	background-image: url('../Imagenes/img/sideBar.jpg');
 	border-right: 1px solid rgba(255, 255, 255, .4);
 	overflow: hidden;
 }
@@ -310,7 +310,7 @@ body, html{
 }
 /*============ Estilos home*/
 .tile{
-	max-width: 300px;
+	max-width: 150px;
 	height: 180px;
 	background-color: #fff;
 	color: rgba(43, 174, 168, 1);
@@ -603,4 +603,54 @@ body, html{
 	.no-paddin-left{
 		padding-left: 0;
 	}
+}
+/*======= imagen cambiante*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }

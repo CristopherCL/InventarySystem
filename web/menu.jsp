@@ -11,7 +11,7 @@
 	<title>Inicio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
+	<link rel="stylesheet" href="Framework-Gumby/css/main.css">
 </head>
 <body >
 	<!-- SideBar -->
@@ -25,7 +25,7 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="Imagenes/img/admin.png" alt="UserIcon">
+					<img src="Framework-Gumby/Imagenes/img/admin.png" alt="UserIcon">
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
@@ -83,10 +83,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta productos</a>
-						</li>
-						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Consulta inventarios</a>
+							<a href="consultar_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta productos</a>
 						</li>
 					</ul>
 				</li>
@@ -133,33 +130,33 @@
                     
                     <div class="slideshow-container">
                         <div class="mySlides fade">
-                             <img src="Imagenes/img/logo.jpg" style="width:100%">
+                             <img src="Framework-Gumby/Imagenes/img/logo.jpg" style="width:100%">
                              
                         </div>
 
                         <div class="mySlides fade">
-                                <img src="Imagenes/img/impresora.png" style="width:100%">
+                                <img src="Framework-Gumby/Imagenes/img/impresora.png" style="width:100%">
                                 
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="Imagenes/img/lapto.jpg" style="width:100%">
+                            <img src="Framework-Gumby/Imagenes/img/lapto.jpg" style="width:100%">
                             
                         </div>
                         <div class="mySlides fade">
-                            <img src="Imagenes/img/pcescritorio.jpg" style="width:100%">
+                            <img src="Framework-Gumby/Imagenes/img/pcescritorio.jpg" style="width:100%">
                            
                         </div>
                         <div class="mySlides fade">
-                            <img src="Imagenes/img/reloj.jpg" style="width:100%">
+                            <img src="Framework-Gumby/Imagenes/img/reloj.jpg" style="width:100%">
                             
                         </div>
                         <div class="mySlides fade">
-                            <img src="Imagenes/img/smart.jpg" style="width:100%">
+                            <img src="Framework-Gumby/Imagenes/img/smart.jpg" style="width:100%">
                             
                         </div>
                         <div class="mySlides fade">
-                            <img src="Imagenes/img/productosverios.jpg" style="width:100%">
+                            <img src="Framework-Gumby/Imagenes/img/productosverios.jpg" style="width:100%">
                            
                         </div>
 
@@ -226,7 +223,7 @@
 			<section id="cd-timeline" class="cd-container">
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
+                        <img src="Framework-Gumby/Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">Lunes a Viernes (Jornada matutina)</h4>
@@ -239,7 +236,7 @@
                 </div>      
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
+                        <img src="Framework-Gumby/Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">Lunes a Viernes (Jornada vespertina)</h4>
@@ -251,7 +248,7 @@
                 </div>
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
+                        <img src="Framework-Gumby/Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">Sábado</h4>
@@ -263,7 +260,7 @@
                 </div>
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="Imagenes/img/admin.png" alt="user-picture">
+                        <img src="Framework-Gumby/Imagenes/img/admin.png" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">Domingo</h4>
@@ -274,7 +271,7 @@
                 </div>   
             </section>
                 </div>
-                <jsp:include page="Mis estilos/pie_pagina.jsp" />
+                <jsp:include page="pie_pagina.jsp"/>
 	</section>
 
 	
@@ -285,7 +282,7 @@
 	<script src="Framework-Gumby/js/material.min.js"></script>
 	<script src="Framework-Gumby/js/ripples.min.js"></script>
 	<script src="Framework-Gumby/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="Framework-Gumby/js/main_1.js"></script>
+	<script src="Framework-Gumby/js/main.js"></script>
 	<script>
 		$.material.init();
 	</script>

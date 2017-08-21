@@ -11,9 +11,9 @@
 	<title>Registration</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="Framework-Gumby/css/main_1.css">
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
-        <link rel="stylesheet" href="Mis estilos\miestilo.css">
+	<link rel="stylesheet" href="Framework-Gumby/css/main.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/Mis-estilos/miestilo.css">
 </head>
 <body>
     <%-- SideBar --%>
@@ -27,7 +27,7 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="Imagenes/img/admin.png" alt="UserIcon">
+					<img src="Framework-Gumby/Imagenes/img/admin.png" alt="UserIcon">
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
@@ -87,10 +87,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta de producto</a>
-						</li>
-						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i>Consulta de inventario</a>
+							<a href="consultar_producto.jsp"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Consulta de producto</a>
 						</li>
 					</ul>
 				</li>
@@ -144,7 +141,7 @@
                                             <input class="wide text input" name="cod_ven" type="text" placeholder="v0029" required/>  
                                         </li>
                                         <li class="field">
-                                            <label class="inline" for="text2">Cedula Cliente </label>
+                                            <label class="inline" for="text2">Cédula Cliente </label>
                                             <input class="wide text input" name="ced_cliente" type="text" required/>                                        
                                         </li>
                                         <li class="field">

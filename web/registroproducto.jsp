@@ -10,8 +10,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registro Producto</title>
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
-        <link rel="stylesheet" href="Mis estilos\miestilo.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/Mis-estilos/miestilo.css">
     </head>
     <body>          
             <div class="four columns">

@@ -36,10 +36,10 @@
 
 	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
 		 However, there is a blank style.css in the css directory should you prefer -->
-	<link rel="stylesheet" href="css/gumby.css">
+	<link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
-	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="Framework-Gumby/js/libs/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
@@ -58,9 +58,9 @@
 	<script>
 	if(!window.jQuery) {
 	if(!oldieCheck) {
-	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+	  document.write('<script src="Framework-Gumby/js/libs/jquery-2.0.2.min.js"><\/script>');
 	} else {
-	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+	  document.write('<script src="Framework-Gumby/js/libs/jquery-1.10.1.min.js"><\/script>');
 	}
 	}
 	</script>
@@ -68,17 +68,17 @@
 	<!--
 	Include gumby.js followed by UI modules followed by gumby.init.js
 	Or concatenate and minify into a single file -->
-	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
-	<script src="js/libs/ui/gumby.retina.js"></script>
-	<script src="js/libs/ui/gumby.fixed.js"></script>
-	<script src="js/libs/ui/gumby.skiplink.js"></script>
-	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
-	<script src="js/libs/ui/gumby.checkbox.js"></script>
-	<script src="js/libs/ui/gumby.radiobtn.js"></script>
-	<script src="js/libs/ui/gumby.tabs.js"></script>
-	<script src="js/libs/ui/gumby.navbar.js"></script>
-	<script src="js/libs/ui/jquery.validation.js"></script>
-	<script src="js/libs/gumby.init.js"></script>
+	<script gumby-touch="Framework-Gumby/js/libs" src="Framework-Gumby/js/libs/gumby.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.retina.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.fixed.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.skiplink.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.checkbox.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.radiobtn.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.tabs.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/gumby.navbar.js"></script>
+	<script src="Framework-Gumby/js/libs/ui/jquery.validation.js"></script>
+	<script src="Framework-Gumby/js/libs/gumby.init.js"></script>
 
 	<!--
 	Google's recommended deferred loading of JS
@@ -102,8 +102,8 @@
 	else window.onload = downloadJSAtOnload;
 	</script> -->
 
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+	<script src="Framework-Gumby/js/plugins.js"></script>
+	<script src="Framework-Gumby/js/main.js"></script>
 
 	<!-- Change UA-XXXXX-X to be your site's ID -->
 	<!--<script>

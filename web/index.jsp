@@ -13,9 +13,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title> SYSTEM INVENTORY </title>
-        <link rel="stylesheet" href="Framework-Gumby\css\gumby.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/gumby.css">
         <script Language="Javascript" src="Framework-Gumby/js/libs/modernizr-2.6.2.min.js"></script>
-        <link rel="stylesheet" href="Framework-Gumby\css\style.css">
+        <link rel="stylesheet" href="Framework-Gumby/css/style.css">
     </head>
     
     <body background="Mis estilos/Fondo.jpg">
@@ -30,9 +30,9 @@
 	<script>
 	if(!window.jQuery) {
 	if(!oldieCheck) {
-	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+	  document.write('<script src="Framework-Gumby/js/libs/jquery-2.0.2.min.js"><\/script>');
 	} else {
-	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+	  document.write('<script src="Framework-Gumby/js/libs/jquery-1.10.1.min.js"><\/script>');
 	}
 	}
 	</script>
@@ -44,7 +44,7 @@
                     <a class="toggle" gumby-trigger="#nav1 > .row > ul" href="#"><i class="icon-menu"></i></a>
                     <h1 class="four columns logo">
                         <a href="#">
-                            <img src="Imagenes/Imagen1.png" gumby-retina />
+                            <img src="Framework-Gumby/Imagenes/Imagen1.png" gumby-retina />
                         </a>
                     </h1>
                     <ul class="eight columns">
@@ -82,7 +82,7 @@
             </nav>
         </header>
        
-        <script gumby-touch="Framework-Gumby/js/libs" src="Framework-Gumby/js/libs/gumby.js"></script>
+        <script gumby-touch="./js/libs" src="Framework-Gumby/js/libs/gumby.js"></script>
 	<script src="Framework-Gumby/js/libs/ui/gumby.retina.js"></script>
 	<script src="Framework-Gumby/js/libs/ui/gumby.fixed.js"></script>
 	<script src="Framework-Gumby/js/libs/ui/gumby.skiplink.js"></script>
