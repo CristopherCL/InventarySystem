@@ -31,16 +31,7 @@
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power"></i>
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<!-- SideBar Menu -->
@@ -138,27 +129,27 @@
                                     <ul>
                                         <li class="field">
                                             <label class="inline" for="text5">Cedula proveedor: </label>
-                                            <input class="wide text input" name="ced_prove" type="number" required/>                                        
+                                            <input class="wide text input" name="ced_prove" type="text" onkeypress="return validarn(event)" maxlength="10"  required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text1">Nombre proveedor: </label>
-                                            <input class="wide text input" name="nom_prove" type="text" placeholder="Elva Maria" required/>  
+                                            <input class="wide text input" name="nom_prove" type="text"  maxlength="40" onkeypress="return validar2(event)" required/>  
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text2">Apellido proveedor </label>
-                                            <input class="wide text input" name="apell_prove" type="text" placeholder="Jobs Morrison" required/>                                        
+                                            <input class="wide text input" name="apell_prove" type="text" maxlength="40" onkeypress="return validar2(event)" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Telefono proveedor: </label>
-                                            <input class="wide text input" name="tel_prove" type="text" placeholder="Nombre proveedor" required/>                                       
+                                            <input class="wide text input" name="tel_prove" type="text" onkeypress="return validarn(event)"maxlength="10" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Direccion proveedor: </label>
-                                            <input class="wide text input" name="dir_prove" type="text" placeholder="Mause Óptico" required/>                                       
+                                            <input class="wide text input" name="dir_prove" type="text" maxlength="40" onkeypress="return validar(event)" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text4">Correo proveedor: </label>
-                                            <input class="wide text input" name="corre_prove" type="email" required/>                                        
+                                            <input class="wide text input" name="corre_prove" type="email" maxlength="40"  required/>                                        
                                         </li>   
                                     </ul>
                                 <center>
@@ -182,5 +173,32 @@
 	<script>
 		$.material.init();
 	</script>
+        <script type="text/javascript">
+            function validar(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s/\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validar2(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validarn(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
 </body>
 </html>

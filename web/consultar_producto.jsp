@@ -30,16 +30,7 @@
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power"></i>
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<!-- SideBar Menu -->
@@ -146,6 +137,7 @@
 											</div>
 										  <p class="text-center">
                                                                                         <button href="#!" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
+                                                                                        
 										    </p>
 									    </form>
                                                                             <p class="text-center">
@@ -231,10 +223,16 @@
                                                                                         <button href="" ><i class="zmdi zmdi-delete"></i>Eliminar</button>
                                                                                       
 										    </p>
+                                                                                    
 									    </form>
                                                                             <p class="text-center">
-                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_inventario.php"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_inventario.php" target="ventana_iframe"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
                                                                             </p>
+                                                                            <div class="table-responsive">  
+                                                                                <center>
+                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
+                                                                                </center>
+                                                                            </div>
 									</div>
 								</div>
 							</div>

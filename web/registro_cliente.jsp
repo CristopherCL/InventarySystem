@@ -31,16 +31,7 @@
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power"></i>
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<!-- SideBar Menu -->
@@ -139,31 +130,31 @@
                                     <ul>
                                         <li class="field">
                                             <label class="inline" for="text5">Cedula cliente: </label>
-                                            <input class="wide text input" name="ced_cli" type="number" required/>                                        
+                                            <input class="wide text input" name="ced_cli" type="text" onkeypress="return validarn(event)" maxlength="10" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text1">Nombre cliente: </label>
-                                            <input class="wide text input" name="nom_cli" type="text" placeholder="Elva Maria" required/>  
+                                            <input class="wide text input" name="nom_cli" type="text"  onkeypress="return validar2(event)" maxlength="40" required/>  
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text2">Apellido cliente: </label>
-                                            <input class="wide text input" name="apell_cli" type="text" placeholder="Jobs Morrison" required/>                                        
+                                            <input class="wide text input" name="apell_cli" type="text" onkeypress="return validar2(event)" maxlength="40" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Telefono cliente: </label>
-                                            <input class="wide text input" name="tel_cli" type="text"  required/>                                       
+                                            <input class="wide text input" name="tel_cli" type="text" onkeypress="return validarn(event)" maxlength="10"  required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Direccion cliente: </label>
-                                            <input class="wide text input" name="dir_cli" type="text"  required/>                                       
+                                            <input class="wide text input" name="dir_cli" type="text" onkeypress="return validar(event)" maxlength="40" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text4">Correo cliente: </label>
-                                            <input class="wide text input" name="corre_cli" type="email" required/>                                        
+                                            <input class="wide text input" name="corre_cli" type="email" maxlength="40" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text4">Contraseña cliente: </label>
-                                            <input class="wide text input" name="contra_cli" type="password" required/>                                        
+                                            <input class="wide text input" name="contra_cli" type="password" maxlength="8" required/>                                        
                                         </li>    
                                     </ul>
                                 <center>
@@ -193,5 +184,32 @@
 	<script>
 		$.material.init();
 	</script>
+        <script type="text/javascript">
+            function validar(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s/\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validar2(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validarn(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
 </body>
 </html>

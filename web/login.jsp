@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="Framework-Gumby/css/main.css">
 </head>
 <body class="cover" style="background-image: url(Framework-Gumby/Imagenes/img/login_imagen.jpg);">
-	<form action="menu.jsp" method="post" autocomplete="off" class="full-box logInForm">
+	<form action="https://inventarysystems.000webhostapp.com/login.php" method="post" autocomplete="off" class="full-box logInForm">
 		<p class="text-center text-muted"><i class="zmdi zmdi-account-circle zmdi-hc-5x"></i></p>
 		<p class="text-center text-muted text-uppercase">Inicia sesión con tu cuenta</p>
 		<div class="form-group label-floating">

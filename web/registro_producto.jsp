@@ -31,16 +31,7 @@
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power"></i>
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<%-- SideBar Menu --%>
@@ -138,19 +129,19 @@
                                     <ul>                                
                                         <li class="field">
                                             <label class="inline" for="text1">Código: </label>
-                                            <input class="wide text input" name="cod_pro" type="text" placeholder="p0029" required/>  
+                                            <input class="wide text input" name="cod_pro" type="text" onkeypress="return validar(event)" maxlength="10" placeholder="p0029" required/>  
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text2">Categoría: </label>
-                                            <input class="wide text input" name="cat_pro" type="text" placeholder="Mouse" required/>                                        
+                                            <input class="wide text input" name="cat_pro" type="text" onkeypress="return validar2(event)"placeholder="Mouse" maxlength="40" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Proveedor: </label>
-                                            <input class="wide text input" name="provee_pro" type="text" placeholder="Nombre proveedor" required/>                                       
+                                            <input class="wide text input" name="provee_pro" type="text" onkeypress="return validar2(event)" maxlength="40" placeholder="Nombre proveedor" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Descripción del producto: </label>
-                                            <input class="wide text input" name="descrip_pro" type="text" placeholder="Mause Óptico" required/>                                       
+                                            <input class="wide text input" name="descrip_pro" onkeypress="return validar(event)" type="text" maxlength="50"placeholder="Mause Óptico" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text4">Precio Compra: </label>
@@ -162,11 +153,11 @@
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text6">Stock: </label>
-                                            <input class="wide text input" name="stock_pro" type="number" required/>                                        
+                                            <input class="wide text input" name="stock_pro" type="text" onkeypress="return validarn(event)"maxlength="4" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text7">Stock Mínimo: </label>
-                                            <input class="wide text input" name="stock_min_pro" type="number" required/>                                        
+                                            <input class="wide text input" name="stock_min_pro" type="text" onkeypress="return validarn(event)"maxlength="4" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text8">Fecha de Entrada: </label>
@@ -184,7 +175,7 @@
                 </div></div>
 	</section>
 
-	<%--====== Scripts --%>
+	<%-- Scripts --%>
 	<script src="Framework-Gumby/js/jquery-3.1.1.min.js"></script>
 	<script src="Framework-Gumby/js/sweetalert2.min.js"></script>
 	<script src="Framework-Gumby/js/bootstrap.min.js"></script>
@@ -195,5 +186,32 @@
 	<script>
 		$.material.init();
 	</script>
+        <script type="text/javascript">
+            function validar(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s/\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validar2(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validarn(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>   
 </body>
 </html>

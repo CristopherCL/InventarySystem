@@ -118,3 +118,6 @@ function openDialog() {
 function doGet() {
   return HtmlService.createHtmlOutputFromFile('informacion.jsp');
 }
+
+           
+        

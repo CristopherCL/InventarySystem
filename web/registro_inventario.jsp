@@ -31,16 +31,7 @@
 					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power"></i>
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<%-- SideBar Menu --%>
@@ -138,27 +129,27 @@
                                     <ul>                                
                                         <li class="field">
                                             <label class="inline" for="text1">Código inventario: </label>
-                                            <input class="wide text input" name="cod_inv" type="text" placeholder="i0029" required/>  
+                                            <input class="wide text input" name="cod_inv" type="text" placeholder="i0029" onkeypress="return validar(event)" maxlength="10" required/>  
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text2">Descripción Inventario </label>
-                                            <input class="wide text input" name="des_inve" type="text" placeholder="Inventario de Mouse" required/>                                        
+                                            <input class="wide text input" name="des_inve" type="text" placeholder="Inventario de Mouse" onkeypress="return validar(event)" maxlength="40" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text3">Producto inventario: </label>
-                                            <input class="wide text input" name="prod_inve" type="text"  required/>                                       
+                                            <input class="wide text input" name="prod_inve" type="text" onkeypress="return validar2(event)" maxlength="40" required/>                                       
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text4">Piezas entradas: </label>
-                                            <input class="wide text input" name="pieza_ent" type="number" required/>                                        
+                                            <input class="wide text input" name="pieza_ent" type="text"  maxlength="4" onkeypress="return validarn(event)"required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text5">Piezas salidas: </label>
-                                                <input class="wide text input" name="pieza_sal" type="number" required/>                                        
+                                                <input class="wide text input" name="pieza_sal" onkeypress="return validarn(event)" type="text" maxlength="4" required/>                                        
                                         </li>
                                         <li class="field">
                                             <label class="inline" for="text6">Total restante: </label>
-                                            <input class="wide text input" name="tot_rest" type="number" required/>                                        
+                                            <input class="wide text input" name="tot_rest" type="text" onkeypress="return validarn(event)"maxlength="4" required/>                                        
                                         </li>
                                        
                                     </ul>
@@ -185,5 +176,32 @@
 	<script>
 		$.material.init();
 	</script>
+        <script type="text/javascript">
+            function validar(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s/\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validar2(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[A-Za-z\s]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
+        <script type="text/javascript">
+            function validarn(e) { // 1
+             tecla = (document.all) ? e.keyCode : e.which; // 2
+             if (tecla==8) return true; // 3
+             patron =/[\d]/; // 4
+             te = String.fromCharCode(tecla); // 5
+             return patron.test(te); // 6
+            }
+        </script>
 </body>
 </html>
