@@ -17,6 +17,14 @@
 			margin: 20px;
 		}
 	</style>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
 </head>
 <body >
 	<!-- SideBar -->
@@ -140,8 +148,9 @@
                     <p class="text-titles " >Sector	Privado</p>
                     
                     
-	
+                    <center>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2702515631568!2d-80.73260018537003!3d-0.9495921993072882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902be137cf6baa53%3A0xe2fa21c11edb54a2!2sAv+23%2C+Manta!5e0!3m2!1ses-419!2sec!4v1503311076739" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>          
+        </center>
         <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -157,6 +166,7 @@
     </style>
   
     <div id="map"></div>
+    <div class="fb-like" data-href="https://www.facebook.com/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
     <script>
       var map;
       function initMap() {

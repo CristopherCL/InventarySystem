@@ -141,8 +141,14 @@
 										    </p>
 									    </form>
                                                                             <p class="text-center">
-                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_producto.php"><button><i class="zmdi zmdi-floppy"></i>Lista de productos</button></a>
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_producto.php" target="ventana_iframe1"><button><i class="zmdi zmdi-floppy"></i>Lista de productos</button></a>
                                                                             </p>
+                                                                            
+                                                                            <div class="table-responsive">  
+                                                                                <center>
+                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe1" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
+                                                                                </center>
+                                                                            </div>
 									</div>
 								</div>
 							</div>
@@ -162,8 +168,14 @@
 										    </p>
 									    </form>
                                                                             <p class="text-center">
-                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_proveedores.php"><button><i class="zmdi zmdi-floppy"></i>Lista de productos</button></a>
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_proveedores.php" target="ventana_iframe2"><button><i class="zmdi zmdi-floppy"></i>Lista de productos</button></a>
                                                                             </p>
+                                                                            
+                                                                            <div class="table-responsive">  
+                                                                                <center>
+                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe2" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
+                                                                                </center>
+                                                                            </div>
 									</div>
 								</div>
 							</div>
@@ -183,8 +195,14 @@
 										    </p>
 									    </form>
                                                                             <p class="text-center">
-                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_cliente.php"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_cliente.php" target="ventana_iframe3" ><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
                                                                             </p>
+                                                                            
+                                                                            <div class="table-responsive">  
+                                                                                <center>
+                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe3" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
+                                                                                </center>
+                                                                            </div>
                                                                         </div>
 								</div>
 							</div>
@@ -204,8 +222,14 @@
 										    </p>
 									    </form>
                                                                             <p class="text-center">
-                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_venta.php"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_venta.php" target="ventana_iframe4"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
                                                                             </p>
+                                                                            
+                                                                            <div class="table-responsive">  
+                                                                                <center>
+                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe4" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
+                                                                                </center>
+                                                                            </div>
 									</div>
 								</div>
 							</div>
@@ -226,11 +250,11 @@
                                                                                     
 									    </form>
                                                                             <p class="text-center">
-                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_inventario.php" target="ventana_iframe"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
+                                                                            <a href="http://inventarysystems.000webhostapp.com/listar_inventario.php" target="ventana_iframe5"><button><i class="zmdi zmdi-floppy"></i>Lista de registros</button></a>
                                                                             </p>
                                                                             <div class="table-responsive">  
                                                                                 <center>
-                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
+                                                                                    <iframe src="" marginwidth="0" marginheight="0" name="ventana_iframe5" scrolling="no" border="0" frameborder="0" width="800" height="600" allowfullscreen> </iframe>
                                                                                 </center>
                                                                             </div>
 									</div>

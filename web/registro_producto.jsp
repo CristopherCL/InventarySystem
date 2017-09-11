@@ -166,6 +166,7 @@
                                     </ul>
                                 <center>
                                     <button type="submit" name="btnregistrarproducto" ><i class="zmdi zmdi-floppy"></i>Guardar</button>
+                                    <button type="submit" name="btnregistrarproducto" ><i class="zmdi zmdi-floppy"></i>Actualizar</button>
                                 </center>
                             </fieldset>  
                         </form> 

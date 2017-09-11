@@ -9,7 +9,7 @@
 <html>
     <hr/>
         <p align="center" >Universidad Laica "Eloy Alfaro" de Manabí, Facultad de ciencias informáticas </p>
-        <p align="center">Autores: Cedeño Camilo & Legarda Cristhoper</p>
+        <p align="center">Autores: Cedeño Camilo & Anthony Legarda</p>
         <p align="center">© Copyright 2017</p>
       
 </html>
